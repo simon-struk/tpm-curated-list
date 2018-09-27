@@ -21,6 +21,9 @@ Extension to standard GRUB2 bootloader to offer TPM support for granting integri
 - [TPM emulator](https://github.com/PeterHuewe/tpm-emulator) _[active]_ <br>
 A Software-based TPM and MTM Emulator. TPM 1.2 only.
 
+- [TPM JavaScript emulator + demo](https://google.github.io/tpm-js/) _[active]_ <br>
+TPM-JS lets you experiment with a software Trusted Platform Module (TPM) in your browser.
+
 - [Simple TPM PK11](https://github.com/ThomasHabets/simple-tpm-pk11)  _[active]_ <br>
 Simple PKCS11 provider for TPM chips. Supports OpenSSH.
 

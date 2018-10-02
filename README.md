@@ -51,6 +51,15 @@ Python library for interfacing with TPMs.
 - [Microsoft TPM 2.0 ref](https://github.com/Microsoft/ms-tpm-20-ref) _[active]_ <br>
 Reference implementation of the TPM 2.0 specification by Microsoft.
 
+- [IBM TPM2 TSS](https://sourceforge.net/projects/ibmtpm20tss/) _[active]_ <br>
+IBM's implementation of TPM Software Stack. Functionality equivalent to TCG TSS, but different interface.
+
+- [IBM Software TPM2](https://sourceforge.net/projects/ibmswtpm2/) _[active]_ <br>
+IBM's software TPM 2.0 simulator.
+
+- [IBM TPM Attestation Client Server](https://sourceforge.net/projects/ibmtpm20acs/) _[active]_ <br>
+Code for TCG attestation application.
+
 ### Shell scripts / guides
 - [Linux LUKS TPM boot](https://github.com/fox-it/linux-luks-tpm-boot) <br>
 Uses LUKS and TrustedGRUB2 to emulate the behaviour of Microsoft's Bitlocker (seamless disk encryption/decryption).

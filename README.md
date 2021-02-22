@@ -1,5 +1,8 @@
 # Curated list of TPM (Trusted Platform Module) projects
 
+- [Keylime](https://keylime.dev) _[active]_ <br>
+Open source TPM remote attestation softare.
+
 - [TPM2 TSS](https://github.com/tpm2-software/tpm2-tss) _[active]_ <br>
 Open source implementation of TCG TPM2 Software Stack (TSS2).
 

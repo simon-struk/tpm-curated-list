@@ -18,38 +18,20 @@ System daemon implementing TPM2 access broker (TAB) and resource manager (RM) sp
 - [TPM2 TSS engine](https://github.com/tpm2-software/tpm2-tss-engine) _[active]_ <br>
 Cryptographic engine for OpenSSL for TPM 2.0, using the tpm2-tss. Supports RSA decryption/signatures and ECDSA signatures.
 
-- [TrustedGRUB2](https://github.com/Rohde-Schwarz-Cybersecurity/TrustedGRUB2) _[last commit 2017]_ <br>
-Extension to standard GRUB2 bootloader to offer TPM support for granting integrity of the boot process (trusted boot).
-
-- [TPM emulator](https://github.com/PeterHuewe/tpm-emulator) _[active]_ <br>
-A Software-based TPM and MTM Emulator. TPM 1.2 only.
-
 - [TPM JavaScript emulator + demo](https://google.github.io/tpm-js/) _[active]_ <br>
 TPM-JS lets you experiment with a software Trusted Platform Module (TPM) in your browser.
 
-- [Simple TPM PK11](https://github.com/ThomasHabets/simple-tpm-pk11)  _[active]_ <br>
-Simple PKCS11 provider for TPM chips. Supports OpenSSH.
-
-- [TPM2 PK11](https://github.com/irtimmer/tpm2-pk11)  _[active]_ <br>
-PKCS#11 module for TPM 2.0. Supports OpenSSH, Firefox and GnuPG.
-
-- [Cryptsetup TPM incubator](https://github.com/AndreasFuchsSIT/cryptsetup-tpm-incubator) _[active]_ <br>
-A fork of cryptsetup that adds an extension for adding TPM 2.0 support.
+- [Cryptsetup](https://gitlab.com/cryptsetup/cryptsetup/) _[active]_ <br>
+Cryptsetup and LUKS - open-source disk encryption
 
 - [TSS.MSR](https://github.com/Microsoft/TSS.MSR) _[active]_ <br>
 TPM Software Stack implementation from Microsoft Research.
 
-- [tpmtopt](https://github.com/mjg59/tpmtotp) _[last commit 2016]_ <br>
-Remote attestation of boot state using a TOTP token in another device. Can be used with e.g. Google Authenticator. Before requesting the disk decryption passphrase, a TOTP token is displayed on the screen that can be checked using another device (phone).
-
 - [libtpms](https://github.com/stefanberger/libtpms) _[active]_ <br>
 Library providing software emulation of TPM 1.2 and TPM 2.0. Targets the integration of TPM functionality into hypervisors (Qemu).
 
-- [wolfSSL](https://github.com/wolfSSL/wolfTPM) _[active]_ <br>
-Portable TPM 2.0 project designed for embedded use.
-
-- [Python TSS](https://github.com/mjg59/python-tss) _[last commit: 2016]_ <br>
-Python library for interfacing with TPMs.
+- [wolfTPM](https://github.com/wolfSSL/wolfTPM) _[active]_ <br>
+Portable TPM 2.0 library designed for embedded use.
 
 - [Microsoft TPM 2.0 ref](https://github.com/Microsoft/ms-tpm-20-ref) _[active]_ <br>
 Reference implementation of the TPM 2.0 specification by Microsoft.
@@ -66,9 +48,27 @@ Libtpms-based TPM emulator with socket, character device, and Linux CUSE interfa
 - [IBM TPM Attestation Client Server](https://sourceforge.net/projects/ibmtpm20acs/) _[active]_ <br>
 Code for TCG attestation application.
 
+- [Simple TPM PK11](https://github.com/ThomasHabets/simple-tpm-pk11)  _[last commit: 2020]_ <br>
+Simple PKCS11 provider for TPM chips. Supports OpenSSH.
+
+- [TPM emulator](https://github.com/PeterHuewe/tpm-emulator) _[last commit 2018]_ <br>
+A Software-based TPM and MTM Emulator. TPM 1.2 only.
+
+- [tpmtopt](https://github.com/mjg59/tpmtotp) _[last commit 2016]_ <br>
+Remote attestation of boot state using a TOTP token in another device. Can be used with e.g. Google Authenticator. Before requesting the disk decryption passphrase, a TOTP token is displayed on the screen that can be checked using another device (phone).
+
+- [Python TSS](https://github.com/mjg59/python-tss) _[last commit: 2016]_ <br>
+Python library for interfacing with TPMs.
+
+- [TrustedGRUB2](https://github.com/Rohde-Schwarz-Cybersecurity/TrustedGRUB2) _[deprecated]_ <br>
+Extension to standard GRUB2 bootloader to offer TPM support for granting integrity of the boot process (trusted boot).
+
+- [TPM2 PK11](https://github.com/irtimmer/tpm2-pk11)  _[deprecated]_ <br>
+PKCS#11 module for TPM 2.0. Supports OpenSSH, Firefox and GnuPG.
+
 ### Shell scripts / guides
-- [Linux LUKS TPM boot](https://github.com/fox-it/linux-luks-tpm-boot) <br>
+- [Linux LUKS TPM boot](https://github.com/fox-it/linux-luks-tpm-boot) _[last commit: 2018]_ <br>
 Uses LUKS and TrustedGRUB2 to emulate the behaviour of Microsoft's Bitlocker (seamless disk encryption/decryption).
 
-- [TPM2-LUKS](https://github.com/rqou/tpm2-luks) _[latest commit: 2017]_ <br>
+- [TPM2-LUKS](https://github.com/rqou/tpm2-luks) _[last commit: 2017]_ <br>
 Setup of Bitlocker-like encryption using TPM 2.0 and LUKS.

@@ -60,6 +60,9 @@ IBM's implementation of TPM Software Stack. Functionality equivalent to TCG TSS,
 - [IBM Software TPM2](https://sourceforge.net/projects/ibmswtpm2/) _[active]_ <br>
 IBM's software TPM 2.0 simulator.
 
+- [SWTPM](https://github.com/stefanberger/swtpm) _[active]_ <br>
+Libtpms-based TPM emulator with socket, character device, and Linux CUSE interface.
+
 - [IBM TPM Attestation Client Server](https://sourceforge.net/projects/ibmtpm20acs/) _[active]_ <br>
 Code for TCG attestation application.
 
